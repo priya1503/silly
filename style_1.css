@@ -1,0 +1,137 @@
+@media only  screen and (max-width:700px){
+    *{
+        margin: 0;
+        padding: 0; 
+     }
+     html , body{
+        height:100%;
+     }
+     html{
+        display:table;
+        margin:auto;
+     }
+     body{
+         background-color: black;
+         display: table-cell;
+         vertical-align:middle;
+     }
+     
+    
+     #avatar{
+        width: 40px;
+        height: 45px;
+        border-radius: 50%;
+        padding-top: 6px;
+        
+     }
+     .whole{
+        width:375px;
+         height:667px;
+         background-color: #e2e7ee;
+         padding:50px 10px 5px 40px ;
+     }
+     .part1{
+        border-radius: 0 0 4% 4%;
+        background-color: white;
+        padding-left:28px;
+        padding-top: 23px;
+        padding-right:35px ;
+        height:310px;
+        width:260px;
+     }
+     #drawers{
+        width: 330px;
+        height: 250px;
+        border-radius: 5% 5% 0 0;
+        
+     }
+     .part2{
+        display:flex;
+     }
+     
+     #abc{
+        background-color:#ecf2f8;
+        padding:10px 10px;
+        border-radius: 100%;
+     }
+     .name{
+        padding-left:2px ;
+        
+        padding-top: 10px;
+        font-size: 15px;
+     }
+     .name h4{
+      font-size: 15px;
+      font-family: manrope;
+      font-weight: 700;
+   }
+   .name p{
+      font-size: 13px;
+      font-family: manrope;
+      font-weight: 700;
+   }
+     h2{
+        line-height: 24px;
+        font-family: "manrope";
+        font-weight: 700;
+        font-size: 20px;
+     }
+     p{
+        line-height: 22px;
+        font-family: manrope;
+        font-weight: 700;
+        color:#6d7f97;
+     }
+     h2 ,h4{
+        color: #4e5765;
+        opacity:0.8;
+     }
+     
+     .share{
+       padding-left: 60px;
+       padding-top: 10px;
+     }
+     .tooltip{
+        position: relative;
+    
+     }
+     .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 220px;
+        background-color:#6d7f97;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        
+        position: absolute;
+        z-index: 1;
+        top:-5px;
+        right:105%;
+        display: flex;
+        padding-left:23px;
+        padding-bottom: 20px;
+        padd 
+      }
+    
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+      
+      .facebook{
+        padding-top: 20px;
+
+     }
+     #main{
+        padding-top: 20px;
+        padding-left: 30px;
+     }
+     .twitter{
+        padding-left: 40px;
+        padding-top: 20px; 
+     }
+        .pinterest{
+        padding-left:50px;
+        padding-top: 20px; 
+     }
+    
+}
